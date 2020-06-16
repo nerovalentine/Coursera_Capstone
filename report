@@ -1,0 +1,24 @@
+Problem and Solution:
+
+England has a very unstable economic situation because of its decision to leave the European Union.
+In such a situation, making profitable decisions about buying (investing) real estate is very difficult and risky.
+We will try to create a system that can recommend us the most profitable and least risky proposal
+for investing in real estate, taking into account infrastructure.
+
+Section data:
+We will use api foursquare for London and Land Registry Base (http://landregistry.data.gov.uk/).
+So we have:
+Postcode
+PAON Primary Addressable Object Name
+Typically the house number or name
+SAON Secondary Addressable Object Name
+If there is a sub-building, for example
+the building is divided into flats
+there will be a SAON
+Street
+Locality
+Town/City
+District
+County
+API
+Etc...
